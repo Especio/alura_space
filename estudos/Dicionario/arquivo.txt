@@ -10,11 +10,21 @@ pip freeze > requirements.txt
 
 django -admin help
 
-django-admin startproject setup .
+django-admin startproject setup 
 
 python manage.py runserver
 
 pip install python-dotenv #variaveis de ambiente 
 
 
-git init 
+git init #inicializo meu git
+
+git add . #copiar todos os arquivos
+
+
+git commit -m "Iniciando projeto" 
+
+git remote add origin git@github.com:Especio/alura_space.git #comando que está no git 
+
+
+git push origin master
