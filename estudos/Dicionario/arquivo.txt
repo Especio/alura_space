@@ -1,0 +1,20 @@
+python3 --version 
+virtualenv --version
+
+venv/Scripts/Activate
+deactivate 
+
+
+pip install django 
+pip freeze > requirements.txt 
+
+django -admin help
+
+django-admin startproject setup .
+
+python manage.py runserver
+
+pip install python-dotenv #variaveis de ambiente 
+
+
+git init 
